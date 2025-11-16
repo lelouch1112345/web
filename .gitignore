@@ -1,0 +1,4 @@
+chess-local-backend/node_modules/
+chess-local-backend/.env
+npm-debug.log*
+.DS_Store

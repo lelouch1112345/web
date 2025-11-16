@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "opening": "Ruy Lopez",
+    "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bb5 a6",
+    "evaluation": 0.25,
+    "bestLine": "4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3",
+    "mistakes": [
+      {
+        "move": "4. Bxc6",
+        "impact": "Gives up the bishop pair too early.",
+        "severity": "inaccuracy"
+      }
+    ],
+    "recommendations": [
+      "Keep the tension by retreating to a4.",
+      "Castle quickly to connect rooks."]
+  },
+  {
+    "id": 2,
+    "opening": "Sicilian Defense",
+    "pgn": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6",
+    "evaluation": -0.15,
+    "bestLine": "6. Be3 e6 7. f3 Be7 8. Qd2",
+    "mistakes": [
+      {
+        "move": "6. Bg5",
+        "impact": "Allows ...Qb6 hitting b2.",
+        "severity": "mistake"
+      }
+    ],
+    "recommendations": [
+      "Adopt the English Attack set-up.",
+      "Delay Bg5 until after Be3 and Qd2."]
+  },
+  {
+    "id": 3,
+    "opening": "Queen's Gambit Declined",
+    "pgn": "1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O",
+    "evaluation": 0.10,
+    "bestLine": "6. Nf3 h6 7. Bh4 b6 8. cxd5 exd5",
+    "mistakes": [
+      {
+        "move": "6. cxd5",
+        "impact": "Releases central tension prematurely.",
+        "severity": "inaccuracy"
+      }
+    ],
+    "recommendations": [
+      "Develop knights before clarifying the center.",
+      "Consider Ne2-g3 plans for a kingside push."]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Chess Local Trainer",
+  "version": "0.1.0",
+  "description": "Extensión local que muestra un panel lateral y se conecta a un backend de ajedrez en localhost.",
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": [
+    "https://lichess.org/*",
+    "http://localhost:3000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://lichess.org/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
